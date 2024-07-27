@@ -1,6 +1,5 @@
 const router = require('express').Router()
 const db = require("../models")
-
 const { Place, Comment, User } = db
 
 router.post('/', async (req, res) => {
